@@ -1,0 +1,40 @@
+\section{Rigid Body Dynamics}
+    In-game physics, we want to animate the game objects on the screen and have them display realistic physical behavior. This can be done by producing an animation with numerical computations applied to the theoretical laws of physics. For these animated objects to move/display motion on the screen, we need the object to update its physical state multiple times per second such that its physical state gets updated every frame. 
+
+        \subsection{Particle Dynamics}
+        To understand this better we take the example of a single particle moving in an enclosed surface like a closed box. The movement of the particle is governed by three parameters that are: \\ 
+        \(position: p=(p_x, p_y)\) \\
+        \(velocity: v=(v_x, v_y)\) \\
+        \(acceleration: a=(a_x, a_y)\)
+
+        But in video games/simulations, the particle moves at a specific frame rate (FPS: frames per second), \\ 
+        \(Frame f \rightarrow f+1\)
+        \vspace{6pt}
+        \\
+        We can calculate the time between each frame as \\
+        \(\Delta t = \frac{1}{\text{FPS}}\)
+        \vspace{6pt}
+        \\
+        Now suppose we have one particle with mass \(m\), position \(p(t_i)\), and velocity \(v(t_i)\) at an instant of time ti. A force \(f(t_i)\) is applied to that particle at that time. The position and velocity of this particle at a future time \(t_i + 1\), \(p(t_i + 1)\) and \(v(t_i + 1)\) respectively, can be computed with: \\
+        \(dt = t_{i+1} - t_i\) \\
+        \(v(t_{i+1}) = v(t_i) + a(t_i)dt\) \\ 
+        \(p(t_{i+1}) = p(t_i) + v(t_i)dt\)
+        
+        The motion of rigid bodies can be used by formulating Newton’s Three Laws of Motion (also known as Newtonian Mechanics) which describe the relations between the forces acting on the object and the object’s motion:
+        \begin{enumerate}[topsep=-5pt]
+            \item Inertia: If there is no force applied to a body, its velocity shall not change and the body will be at rest
+            \item Force, Mass \& Acceleration: The force acting on a body is equal to the change in momentum per change in time. This is given by the formula of force \(F = ma\) and momentum \(p=mv\).
+            \item Action \& Reaction: Every action i.e. the force has an equal and opposite reaction. This means that the force a body experiences is from interactions with other objects/bodies.
+        \end{enumerate}
+        
+        % \subsection{Rigid Bodies in 3D}
+        % When we talk about rigid bodies in 3D spaces, we need to understand that the object will need to maintain its shape and size as it moves and rotates in space. Thus it will be subjected to external forces and torques, and its motion can be described using the laws of physics. 
+        % \vspace{6pt}
+        % \\
+        % The equations of motion for a 3D rigid body can be derived from Newton's laws of motion, which states that the net force acting on an object is equal to the object's mass times its acceleration, and the net torque acting on an object is equal to the object's moment of inertia times its angular acceleration. The equations can be given as 
+        % \\ 
+        % Force, \(F=ma\)
+        % \\ 
+        % Torque, \(\tau = I \alpha\) 
+        % \\ 
+        % where m is the mass of the object, a is the linear acceleration of the object, I is the moment of inertia of the object, and \(\alpha\) is the angular acceleration of the object.
