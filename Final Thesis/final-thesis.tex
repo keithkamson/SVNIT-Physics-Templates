@@ -1,0 +1,89 @@
+\documentclass[12pt,oneside]{book}
+\usepackage[margin=1in]{geometry} %page dimensions
+\usepackage{array}
+\usepackage{amsmath} %math equations
+\usepackage{graphicx} %add images, etc.
+\usepackage{subcaption} 
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{multicol} %for columns
+\usepackage{tabularx} %for columns
+\usepackage{multirow} %for rows
+\usepackage{smartdiagram} %for making diagrams
+\usepackage{colortbl} %add color in tables
+\usepackage{setspace} %for spacing
+\usepackage{parskip} %for spacing
+\usepackage{enumitem} %for itemize/enumerate customization
+% \usepackage{biblatex}
+\usepackage[normalem]{ulem} %for underlining
+\usepackage{soul}
+
+
+%%custom commands%%
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+
+%% for page numbering  %%
+\usepackage{fancyhdr} 
+\pagestyle{plain}
+\fancyfoot[C]{\thepage}
+% \pagestyle{fancy}
+
+
+
+\usepackage[nottoc, notlof, notlot]{tocbibind} 
+
+\input{metadata/details.tex}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\include{appendix/cover_page}
+
+\pagenumbering{roman}
+
+%declaration page
+\include{appendix/declaration_page}
+
+%certificate page
+\include{appendix/certificate_page}
+
+%examiner certificate of approval page
+\include{appendix/examiner_certificate_page}
+
+% acknowledgment page
+\include{appendix/acknowledgement_page}
+
+%abstract/summary page
+\include{appendix/abstract_page}
+
+%table of content
+\include{appendix/toc_page}
+
+\pagenumbering{arabic}
+
+\include{chapters/chpt01}
+
+\include{chapters/chpt02}
+
+
+
+{
+    \addcontentsline{toc}{chapter}{\listfigurename}
+    \listoffigures
+}
+
+
+\nocite{*}
+\bibliographystyle{ieeetr}
+%\renewcommand\refname{}
+\bibliography{blank.bib}
+
+{
+    \pagenumbering{gobble}
+    \include{appendix/annexure_1}
+}
+
+
+\end{document}

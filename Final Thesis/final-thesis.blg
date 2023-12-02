@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: final-thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: appendix/cover_page.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: appendix/declaration_page.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: appendix/certificate_page.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: appendix/examiner_certificate_page.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: appendix/acknowledgement_page.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: appendix/abstract_page.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: appendix/toc_page.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: chapters/chpt01.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: chapters/chpt02.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: appendix/annexure_1.aux
+Database file #1: blank.bib
+You've used 5 entries,
+            1876 wiz_defined-function locations,
+            516 strings with 4407 characters,
+and the built_in function-call counts, 876 in all, are:
+= -- 97
+> -- 14
+< -- 0
++ -- 8
+- -- 3
+* -- 44
+:= -- 117
+add.period$ -- 9
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 42
+empty$ -- 105
+format.name$ -- 3
+if$ -- 226
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 24
+num.names$ -- 3
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 24
+stack$ -- 0
+substring$ -- 32
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 6
+write$ -- 51

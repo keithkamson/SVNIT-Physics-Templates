@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{car_acc}
+R.~Cross, ``Basic {Physics} of {Vehicle} {Acceleration},'' {\em The Physics
+  Teacher}, vol.~56, pp.~358--360, Sept. 2018.
+
+\bibitem{eberly_game_2010}
+D.~H. Eberly, {\em Game physics}.
+\newblock Interactive {3D} technology series, Burlington, MA: Morgan
+  Kaufmann/Elsevier, 2nd ed~ed., 2010.
+\newblock OCLC: ocn482580968.
+
+\bibitem{car_phy}
+``Car {Physics}: {From} {Physclips}.''
+\newblock publisher: The University of New South Wales.
+
+\bibitem{sci_drive}
+``How {Things} {Work} ({PHYS1055}) / {Revealing} the {Magic} in {Everyday}
+  {Life} ({PHYS0612}).''
+\newblock publisher: The University of Hong Kong (HKU).
+
+\bibitem{millington_game_2010}
+I.~Millington, {\em Game physics engine development: how to build a robust
+  commercial-grade physics engine for your game}.
+\newblock Amsterdam ; Boston: Morgan Kaufmann Publishers, 2nd ed~ed., 2010.
+\newblock OCLC: ocn609304030.
+
+\end{thebibliography}
